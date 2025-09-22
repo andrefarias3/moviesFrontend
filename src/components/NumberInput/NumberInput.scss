@@ -1,0 +1,39 @@
+.number-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 5px;
+
+    .input-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        input {
+            width: 100%;
+            padding: 6px 8px 6px 2px;
+            font-size: 12px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            outline: none;
+            text-align: left;
+            margin: 5px 0;
+        }
+
+    }
+
+    .search-btn {
+        padding: 5px 8px;
+        font-size: 14px;
+        border: none;
+        border-radius: 2px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}

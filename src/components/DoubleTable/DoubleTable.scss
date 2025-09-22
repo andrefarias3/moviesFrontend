@@ -1,0 +1,20 @@
+.double-table-container {
+    margin: 10px;
+    width: 100%;
+
+    .main-label {
+        font-weight: bold;
+    }
+
+    .tables-container {
+        .table-container {
+            margin-bottom: 0px;
+            padding: 0;
+            width: 100%;
+        }
+
+        .label-table-container {
+            margin: 10px 0;
+        }
+    }
+}
